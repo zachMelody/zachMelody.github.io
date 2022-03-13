@@ -1,4 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>zachMelody</title><link>https://zachMelody.github.io/</link><description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description><generator>Hugo 0.94.2 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>zachMelody@ignore.com (zachMelody)</managingEditor><webMaster>zachMelody@ignore.com (zachMelody)</webMaster><lastBuildDate>Sun, 13 Mar 2022 03:14:40 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://zachMelody.github.io/rss.xml"/><item><title>Readme</title><link>https://zachMelody.github.io/posts/test/readme/</link><guid isPermaLink="true">https://zachMelody.github.io/posts/test/readme/</guid><pubDate>Wed, 09 Mar 2022 11:33:07 +0800</pubDate><author>zachMelody@ignore.com (zachMelody)</author><description/><category domain="https://zachMelody.github.io/categories/ignore/">ignore</category><category domain="https://zachMelody.github.io/tags/test/">test</category></item><item><title>转载：Github Pages 部署</title><link>https://zachMelody.github.io/posts/githubpages+action%E9%83%A8%E7%BD%B2hugo/</link><guid isPermaLink="true">https://zachMelody.github.io/posts/githubpages+action%E9%83%A8%E7%BD%B2hugo/</guid><pubDate>Tue, 08 Mar 2022 18:24:04 +0800</pubDate><author>zachMelody@ignore.com (zachMelody)</author><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>zachMelody</title><link>https://zachMelody.github.io/</link><description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description><generator>Hugo 0.94.2 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>zachMelody@ignore.com (zachMelody)</managingEditor><webMaster>zachMelody@ignore.com (zachMelody)</webMaster><lastBuildDate>Sun, 13 Mar 2022 03:30:18 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://zachMelody.github.io/rss.xml"/><item><title>Readme</title><link>https://zachMelody.github.io/posts/test/readme/</link><guid isPermaLink="true">https://zachMelody.github.io/posts/test/readme/</guid><pubDate>Wed, 09 Mar 2022 11:33:07 +0800</pubDate><author>zachMelody@ignore.com (zachMelody)</author><description>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;span class="lnt">36
+&lt;/span>&lt;span class="lnt">37
+&lt;/span>&lt;span class="lnt">38
+&lt;/span>&lt;span class="lnt">39
+&lt;/span>&lt;span class="lnt">40
+&lt;/span>&lt;span class="lnt">41
+&lt;/span>&lt;span class="lnt">42
+&lt;/span>&lt;span class="lnt">43
+&lt;/span>&lt;span class="lnt">44
+&lt;/span>&lt;span class="lnt">45
+&lt;/span>&lt;span class="lnt">46
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">package&lt;/span> &lt;span class="nn">cn.javaguide&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">java.lang.reflect.Field&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">java.lang.reflect.InvocationTargetException&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">java.lang.reflect.Method&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="kd">class&lt;/span> &lt;span class="nc">Main&lt;/span> &lt;span class="o">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kd">static&lt;/span> &lt;span class="kt">void&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">String&lt;/span>&lt;span class="o">[]&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="kd">throws&lt;/span> &lt;span class="n">ClassNotFoundException&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="n">NoSuchMethodException&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="n">IllegalAccessException&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="n">InstantiationException&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="n">InvocationTargetException&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="n">NoSuchFieldException&lt;/span> &lt;span class="o">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="cm">/**
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> * 获取 TargetObject 类的 Class 对象并且创建 TargetObject 类实例
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Class&lt;/span>&lt;span class="o">&amp;lt;?&amp;gt;&lt;/span> &lt;span class="n">tagetClass&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">Class&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">forName&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s">&amp;#34;cn.javaguide.TargetObject&amp;#34;&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">TargetObject&lt;/span> &lt;span class="n">targetObject&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="o">(&lt;/span>&lt;span class="n">TargetObject&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="n">tagetClass&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">newInstance&lt;/span>&lt;span class="o">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="cm">/**
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> * 获取 TargetObject 类中定义的所有方法
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Method&lt;/span>&lt;span class="o">[]&lt;/span> &lt;span class="n">methods&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">targetClass&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">getDeclaredMethods&lt;/span>&lt;span class="o">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> &lt;span class="o">(&lt;/span>&lt;span class="n">Method&lt;/span> &lt;span class="n">method&lt;/span> &lt;span class="o">:&lt;/span> &lt;span class="n">methods&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="o">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">System&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">out&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">println&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">method&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">getName&lt;/span>&lt;span class="o">());&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="cm">/**
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> * 获取指定方法并调用
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Method&lt;/span> &lt;span class="n">publicMethod&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">targetClass&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">getDeclaredMethod&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s">&amp;#34;publicMethod&amp;#34;&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">String&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">class&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">publicMethod&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">invoke&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">targetObject&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="s">&amp;#34;JavaGuide&amp;#34;&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="cm">/**
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> * 获取指定参数并对参数进行修改
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Field&lt;/span> &lt;span class="n">field&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">targetClass&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">getDeclaredField&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s">&amp;#34;value&amp;#34;&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//为了对类中的参数进行修改我们取消安全检查
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">field&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">setAccessible&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">field&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">set&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">targetObject&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="s">&amp;#34;JavaGuide&amp;#34;&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="cm">/**
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> * 调用 private 方法
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Method&lt;/span> &lt;span class="n">privateMethod&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">targetClass&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">getDeclaredMethod&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="s">&amp;#34;privateMethod&amp;#34;&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//为了调用private方法我们取消安全检查
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">privateMethod&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">setAccessible&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">privateMethod&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">invoke&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">targetObject&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description><category domain="https://zachMelody.github.io/categories/ignore/">ignore</category><category domain="https://zachMelody.github.io/tags/test/">test</category></item><item><title>转载：Github Pages 部署</title><link>https://zachMelody.github.io/posts/githubpages+action%E9%83%A8%E7%BD%B2hugo/</link><guid isPermaLink="true">https://zachMelody.github.io/posts/githubpages+action%E9%83%A8%E7%BD%B2hugo/</guid><pubDate>Tue, 08 Mar 2022 18:24:04 +0800</pubDate><author>zachMelody@ignore.com (zachMelody)</author><description>&lt;blockquote>
 &lt;p>&lt;strong>转载&lt;/strong>自 &lt;a href="https://www.waynerv.com/posts/setup-blog-with-hugo-and-github-pages/">https://www.waynerv.com/posts/setup-blog-with-hugo-and-github-pages/&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>作为一个已经入行了一年多的（老）技术人，维护一个看得过去的个人博客是很有必要的。&lt;/p>
@@ -29,19 +127,34 @@
 &lt;p>创建一个新的站点。这会生成一个特定目录结构的项目文件夹，用来维护所有的站点内容。假设我们想把它命名为 hugo-blog，则使用以下命令创建并切换到该目录，后续的操作和命令都会在这个根目录下执行：&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;pre tabindex="0">&lt;code> hugo new site hugo-blog
-cd hugo-blog
-&lt;/code>&lt;/pre>&lt;ol start="3">
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl"> hugo new site hugo-blog
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">cd&lt;/span> hugo-blog
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="3">
 &lt;li>
 &lt;p>安装一个主题。这一步是必需的，否则会因为缺少基础模板无法生成站点。安装主题有 3 种方式，以 eureka 主题为例：&lt;/p>
 &lt;ul>
 &lt;li>直接下载主题的压缩文件，将解压得到的文件夹重命名为主题名称 eureka 放到 themes/目录下。&lt;/li>
 &lt;li>通过 git submodule 安装：&lt;/li>
 &lt;/ul>
-&lt;pre>git init
-git submodule add https://github.com/wangchucheng/hugo-eureka.git themes/eureka
-&lt;/pre>
-&lt;ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl"> git init
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> git submodule add https://github.com/wangchucheng/hugo-eureka.git themes/eureka
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
 &lt;li>通过 Hugo Modules 安装（这种方式要求本机安装有 &lt;a href="https://golang.org/dl/">Go 1.12&lt;/a> 及以上版本，且只有部分主题支持）：
 &lt;pre>hugo mod init &amp;lt;module_name&amp;gt;
 &lt;/pre>
@@ -102,9 +215,15 @@ title = "My New Hugo Site" # 站点标题
 &lt;ul>
 &lt;li>
 &lt;p>eureka: 构建失败，提示 :&lt;/p>
-&lt;pre>Error: Error building site: POSTCSS: failed to transform "css/eureka.css" (text/css): resource "css/waynerv.github.io/css/eureka.css_fc3f76d7bee2760c3a903059afc3d9b2" not found in file cache
-&lt;/pre>
-&lt;/li>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">Error&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nb">Error&lt;/span> &lt;span class="nx">building&lt;/span> &lt;span class="nx">site&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">POSTCSS&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">failed&lt;/span> &lt;span class="nx">to&lt;/span> &lt;span class="nx">transform&lt;/span> &lt;span class="s2">&amp;#34;css/eureka.css&amp;#34;&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">text&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="nx">css&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">resource&lt;/span> &lt;span class="s2">&amp;#34;css/waynerv.github.io/css/eureka.css_fc3f76d7bee2760c3a903059afc3d9b2&amp;#34;&lt;/span> &lt;span class="nx">not&lt;/span> &lt;span class="nx">found&lt;/span> &lt;span class="k">in&lt;/span> &lt;span class="nx">file&lt;/span> &lt;span class="nx">cache&lt;/span>&lt;span class="sb">```
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
 &lt;li>
 &lt;p>LoveIt: 构建成功，但除主页以外的文章、分类和标签的页面均提示 404。&lt;/p>
 &lt;/li>
@@ -169,34 +288,67 @@ git push origin main
 &lt;p>在项目文件夹中添加目录和文件：.github/workflows/gh-pages.yml，gh-pages.yml 文件内容如下：&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;pre tabindex="0">&lt;code>name: github pages
-on:
-push:
-branches:
-- main # 每次推送到 main 分支都会触发部署任务
-jobs:
-deploy:
-runs-on: ubuntu-18.04
-steps:
-- uses: actions/checkout@v2
-with:
-submodules: true # Fetch Hugo themes (true OR recursive)
-fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
-- name: Setup Hugo
-uses: peaceiris/actions-hugo@v2
-with:
-hugo-version: &amp;#39;0.79.1&amp;#39;
-extended: true
-- name: Build
-run: hugo --minify
-- name: Deploy
-uses: peaceiris/actions-gh-pages@v3
-with:
-deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-external_repository: &amp;amp;lt;USERNAME&amp;amp;gt;/&amp;amp;lt;USERNAME&amp;amp;gt;.github.io # 替换成上文所创建的个人主页仓库
-publish_branch: main
-publish_dir: ./public
-&lt;/code>&lt;/pre>&lt;pre>&lt;code>这个文件所定义的 workflow 基于项目仓库运行，但我们需要将运行过程生成的静态文件推送到个人主页仓库 &amp;amp;lt;USERNAME&amp;amp;gt;.github.io 完成发布，因此在 Deploy 任务中按照文档的 [Deploy to external repository external_repository](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-deploy-to-external-repository-external_repository) 一节做了专门的配置。
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">github pages&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">push&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">branches&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">main &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 每次推送到 main 分支都会触发部署任务&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">deploy&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ubuntu-18.04&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/checkout@v2&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">submodules&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch Hugo themes (true OR recursive)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">fetch-depth&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch all history for .GitInfo and .Lastmod&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Setup Hugo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-hugo@v2&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">hugo-version&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;0.79.1&amp;#39;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">extended&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Build&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">hugo --minify&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Deploy&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-gh-pages@v3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">deploy_key&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ secrets.ACTIONS_DEPLOY_KEY }}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">external_repository&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">&amp;amp;lt;USERNAME&amp;amp;gt;/&amp;amp;lt;USERNAME&amp;amp;gt;.github.io&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 替换成上文所创建的个人主页仓库&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">publish_branch&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">main&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">publish_dir&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">./public&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;pre>&lt;code>这个文件所定义的 workflow 基于项目仓库运行，但我们需要将运行过程生成的静态文件推送到个人主页仓库 &amp;amp;lt;USERNAME&amp;amp;gt;.github.io 完成发布，因此在 Deploy 任务中按照文档的 [Deploy to external repository external_repository](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-deploy-to-external-repository-external_repository) 一节做了专门的配置。
 &lt;/code>&lt;/pre>
 &lt;ol start="2">
 &lt;li>

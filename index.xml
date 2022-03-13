@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>旋律小站</title>
+    <link>https://examplesite.com/</link>
+    <description>Recent content on 旋律小站</description>
+    <image>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 13 Mar 2022 11:44:44 +0800</lastBuildDate><atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mysql面试题</title>
+      <link>https://examplesite.com/%E9%9D%A2%E8%AF%95/mysql/</link>
+      <pubDate>Sun, 13 Mar 2022 11:44:44 +0800</pubDate>
+      
+      <guid>https://examplesite.com/%E9%9D%A2%E8%AF%95/mysql/</guid>
+      <description>京东 数据库的事务 何为 ACID 特性呢？  原子性（Atomicity） ： 事务是最小的执行单位，不允许分割。事务的原子性确保动作要么全部完成，要么完全不起作用； 一致性（Consistency）： 执行事务前后，数据保持一致，例如转账业务中，无论事务是否成功，转账者和收款人的总额应该是不变的； 隔离性（Isolation）： 并发访问数据库时，一个用户的事务不被其他事务所干扰，各并发事务之间数据库是独立的； 持久性（Durability）： 一个事务被提交之后。它对数据库中数据的改变是持久的，即使数据库发生故障也不应该对其有任何影响。  建索引的注意事项 MySQL中的隔离级别 索引相关问题、组合索引、聚簇索引和非聚簇索引 SQL优化思路有哪些？如何定位低效的SQL，如何优化？explain的字段 B树与B+树的区别、哈希索引和B+ 的区别？ InnoDB和Myisam的区别 作者：代码界的小白 链接：https://leetcode-cn.com/circle/discuss/KLnm9d/</description>
+    </item>
+    
+    <item>
+      <title>Readme</title>
+      <link>https://examplesite.com/posts/test/readme/</link>
+      <pubDate>Wed, 09 Mar 2022 11:33:07 +0800</pubDate>
+      
+      <guid>https://examplesite.com/posts/test/readme/</guid>
+      <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46  package cn.javaguide;  import java.lang.reflect.Field; import java.lang.reflect.InvocationTargetException; import java.lang.reflect.Method;  public class Main {  public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException, NoSuchFieldException {  /** * 获取 TargetObject 类的 Class 对象并且创建 TargetObject 类实例 */  Class&amp;lt;?</description>
+    </item>
+    
+    <item>
+      <title>转载：Github Pages 部署</title>
+      <link>https://examplesite.com/posts/githubpages&#43;action%E9%83%A8%E7%BD%B2hugo/</link>
+      <pubDate>Tue, 08 Mar 2022 18:24:04 +0800</pubDate>
+      
+      <guid>https://examplesite.com/posts/githubpages&#43;action%E9%83%A8%E7%BD%B2hugo/</guid>
+      <description>转载自 https://www.waynerv.com/posts/setup-blog-with-hugo-and-github-pages/
+ 作为一个已经入行了一年多的（老）技术人，维护一个看得过去的个人博客是很有必要的。
+刚学编程的时候，还开源过一个基于 Flask 和 MongoDB 的博客项目，但后面就没怎么使用和维护了，除开主观上的懒，还因为：
+ 自建博客绕不开主机和域名，这是一笔持续的经济成本。国内的主机往往是第一年割肉第二年宰猪，国外的主机访问延迟很高。 国内主机更麻烦的是还需要定期备案，第一个博客就是因为备案到期中断了。 博客功能的实现技术难度不大，开始还有一些新鲜感，有了工作经验后就很难有兴趣继续维护了。  刚好最近有写一些文章的打算，决定找个简单、省事（最后发现并没有）且不花钱的路子把博客再搞起来，一番研究后，选择了生成静态站点发布到 GitHub Pages 的方案。
+工作流 整个方案的流程大致如下：
+ 用 Markdown 格式写作文章。 使用生成器将 markdown 文件转换成静态站点。 将生成的站点内容推送到 GitHub 并发布。  写 markdown 没啥好说的，什么编辑器都可以，我一直用的是 Typora。
+静态站点生成器我选择了 Hugo，原因是最近刚好在学 Go，此外还有 Gatsby、Jekyll、Hexo 等很多选项。
+接下来要做的工作是生成静态站点并通过 GitHub Pages 发布。
+生成静态站点 使用 Hugo 生成静态博客站点非常简单，具体的步骤和用法可以参考官方文档的 Quick Start。下面简单介绍下整个过程：
+  安装 Hugo。macOS 下可以直接使用 homebrew 安装：brew install hugo。
+  创建一个新的站点。这会生成一个特定目录结构的项目文件夹，用来维护所有的站点内容。假设我们想把它命名为 hugo-blog，则使用以下命令创建并切换到该目录，后续的操作和命令都会在这个根目录下执行：
+  1 2   hugo new site hugo-blog  cd hugo-blog    安装一个主题。这一步是必需的，否则会因为缺少基础模板无法生成站点。安装主题有 3 种方式，以 eureka 主题为例：</description>
+    </item>
+    
+  </channel>
+</rss>

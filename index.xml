@@ -9,7 +9,32 @@
       <link>https://zachmelody.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Apr 2022 10:40:55 +0800</lastBuildDate><atom:link href="https://zachmelody.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 15:58:36 +0800</lastBuildDate><atom:link href="https://zachmelody.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>树状数组</title>
+      <link>https://zachmelody.github.io/posts/leetcode/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
+      <pubDate>Mon, 04 Apr 2022 15:58:36 +0800</pubDate>
+      
+      <guid>https://zachmelody.github.io/posts/leetcode/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</guid>
+      <description>https://blog.csdn.net/Yaokai_AssultMaster/article/details/79492190</description>
+    </item>
+    
+    <item>
+      <title>redis</title>
+      <link>https://zachmelody.github.io/posts/face/redis/</link>
+      <pubDate>Mon, 04 Apr 2022 14:16:49 +0800</pubDate>
+      
+      <guid>https://zachmelody.github.io/posts/face/redis/</guid>
+      <description>缓存穿透 缓存穿透是指，缓存和数据库都没有的数据，被大量请求，比如订单号不可能为-1，但是用户请求了大量订单号为-1的数据，由于数据不存在，缓存就也不会存在该数据，所有的请求都会直接穿透到数据库。
+注意：穿透的意思是，都没有，直接一路打到数据库。
+那对于这种情况，我们该如何解决呢？
+ 接口增加业务层级的Filter，进行合法校验，这可以有效拦截大部分不合法的请求。 布隆过滤器 缓存无效数据  缓存击穿 缓存击穿是指数据库原本有得数据，但是缓存中没有，一般是缓存突然失效了，这时候如果有大量用户请求该数据，缓存没有则会去数据库请求，会引发数据库压力增大，可能会瞬间打垮。
+针对这类问题，一般有以下做法：
+ 如果是热点数据，可以设置永远不过期。 如果数据一定会过期，那么就需要在数据为空的时候，设置一个互斥的锁，只让一个请求通过，只有一个请求去数据库拉取数据，取完数据，不管如何都需要释放锁，异常的时候也需要释放锁，要不其他线程会一直拿不到锁。  缓存雪崩 缓存雪崩是指缓存中有大量的数据，在同一个时间点，或者较短的时间段内，全部过期了，这个时候请求过来，缓存没有数据，都会请求数据库，则数据库的压力就会突增，扛不住就会宕机。
+针对这种情况，一般我们都是使用以下方案：
+ 如果是热点数据，那么可以考虑设置永远不过期。 缓存的过期时间除非比较严格，要不考虑设置一个波动随机值 分布式。 也可以考虑双缓存的方式，A设置过期时间，B不设置过期时间  </description>
+    </item>
+    
     <item>
       <title>IOC</title>
       <link>https://zachmelody.github.io/posts/spring/ioc/</link>
@@ -40,15 +65,6 @@ https://www.jianshu.com/p/73d6f1a03005
   在做题的过程中，会遇到两个难点：1、取 mid 的时候，有些时候需要 +1，这是因为需要避免死循环；2、只把区间分成两个部分，这是因为：只有这样，退出循环的时候才有 left 与 right 重合，我们才敢说，找到了问题的答案。（这两个难点，在练习的过程中，会逐渐清晰，不用着急一下子搞懂，事实上并不难理解）。
   第一部分：本题题解  这一部分一定要分析清楚：
   题目要找的元素是：第一个大于等于 target 的元素的下标； 数组的长度 len 也有可能是问题的答案，「参考代码 2」设置 right = len 不是因为设置区间是「左闭右开」，而是因为 len 本来就有可能是问题的答案。   上面 2 个小点，都需要仔细分析题意和几个示例得到，任何模板都不能回答这样的问题。</description>
-    </item>
-    
-    <item>
-      <title>二分查找</title>
-      <link>https://zachmelody.github.io/posts/leetcode/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</link>
-      <pubDate>Wed, 16 Mar 2022 15:58:36 +0800</pubDate>
-      
-      <guid>https://zachmelody.github.io/posts/leetcode/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</guid>
-      <description>https://blog.csdn.net/Yaokai_AssultMaster/article/details/79492190</description>
     </item>
     
     <item>
